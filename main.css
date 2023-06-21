@@ -1,0 +1,53 @@
+body {
+  background-color: blue;
+  background-image: linear-gradient(blue, red, blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: 20px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  color: white;
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+}
+
+/*targeting is done with the dot . inputSection is the class being targeted*/
+.inputSection {
+  margin: 50px 0px 80px 0px;
+  width: 400px;
+}
+/*this section inherits the effects above*/
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 10px;
+}
+
+.addOption {
+  margin-top: 10px;
+}
+
+.resultSection {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+}
